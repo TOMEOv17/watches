@@ -1,0 +1,73 @@
+body{
+  background-image: url("grafika/bg.jpg");
+        text-align: center;
+        background-size: cover;
+}
+
+      body>img:hover{
+        transform: scale(1.1);
+      }
+
+      body>img{
+        margin-top: 15vh;
+        transition: .7s;
+        width: 200px;
+      }
+      
+      div.reg *,
+      div.log * {
+        margin-bottom: 10px;
+      }
+
+      div.reg{
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+
+      div.log{
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      
+      div.reg,
+      div.log {
+        width: 400px;
+        height: 280px;
+        border: 2px solid white;
+        color: white;
+        background: rgba(0,0,0,0.3);
+        backdrop-filter: blur(5px);
+      }
+      
+      .wrap{
+        height: 280px;
+        width: 800px;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+      input[type="submit"]:hover{
+        background-color: rgb(207, 152, 11);
+        box-shadow: 0 0 10px gold;
+      }
+
+      .bar{
+        margin-top: 15px;
+        height: 30px;
+        padding-left: 10px;
+        border-radius: 7px;
+        border: 2px solid white;
+      }
+
+      input[type="submit"]{
+        height: 30px;
+        cursor: pointer;
+        border: none;
+        border-radius: 7px;
+        transition: .3s;
+        margin-top: 15px;
+        padding: 0 10px 0 10px;
+      }
