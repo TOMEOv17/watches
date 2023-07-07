@@ -25,7 +25,8 @@ function toggleOptions(){
 }
 
 function logOut(){
-    window.location.replace("http://localhost/logowanie_Tomasz_Wardeński4kg25/konto.php");
+    // window.location.replace("http://localhost/logowanie_Tomasz_Wardeński4kg25/konto.php");
+    alert("Logged Out");
 }
 
 function buy(){
