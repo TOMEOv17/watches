@@ -68,7 +68,7 @@
                 if(!isset($loginLog) || empty($passLog)){
                   echo "<p style='color: rgb(207, 152, 11);'>Wypełnij dane</p>";
                 }else if($flag){
-                  header("Location: ./mainPage.html");
+                  header("Location: ./index.html");
                 }else{
                   echo "<p style='color: rgb(207, 152, 11);'>Niepoprawne dane!</p>";
                 }
